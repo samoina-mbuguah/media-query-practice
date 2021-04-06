@@ -1,0 +1,19 @@
+.column {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: aquamarine;
+}
+@media screen and (min-width: 400px) and (max-width: 767px) {
+  body {
+    background-color: cadetblue;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: yellowgreen;
+  }
+  .column {
+    width: 220px;
+    float: left;
+    padding: 15px;
+  }
+}
